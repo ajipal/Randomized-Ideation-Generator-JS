@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Randomized Ideation Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!--make div for the task bar above-->
+        <header class="header">
+            <div class="left-section">
+                <div class="title-container">
+                    <h2 class="title-refresh">Randomized Ideation</h2> 
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="generator-container">
+                    <h2 class="generator-page">Generator</h2> 
+                </div>
+                <div class="dashboard-container">
+                    <h2 class="dashboard-page">Dashboard</h2>  
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <section>
+                <!--For the first lock and First Phrase-->
+                <div class="first-container">
+                    <div class="first-statement">
+                        <button class="lock1"  onclick="toggleLock(1)"> lock 1 </button>
+                        <label for="txt1"> First Statement  <input type="text" id="txt1" value="first statement" disabled></label>
+                    </div>
+                </div>
+                
+                <div class="second-container">
+                    <!--For the second lock and Second Phrase-->
+                    <div class="second-statement">
+                        <button class="lock2" onclick="toggleLock(2)"> lock 2 </button>
+                        <label for="txt2"> Second Statement <input type="text" id="txt2" value="second statement" disabled></label>    
+                    </div>
+                </div>
+                
+                <!--For generating the idea-->
+                <div class="generator">
+                    <button class="lock2" onclick="generateIdeas()"> Generate Idea </button>
+                </div>
+
+            </section>
+        </main>
+        
+        <!--use the script to insert js codes-->
+        <script src="prompt.js"></script>
+
+    </body>
+</html>
