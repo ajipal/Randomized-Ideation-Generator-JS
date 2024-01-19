@@ -74,3 +74,12 @@ section {
 .generator {
     text-align: center;
 }
+
+.text {
+    font-size: 50px;
+    
+}
+
+.idea-button {
+    font-size: 25px;
+}

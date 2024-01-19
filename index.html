@@ -30,7 +30,7 @@
                 <div class="first-container">
                     <div class="first-statement">
                         <button class="lock1"  onclick="toggleLock(1)"> lock 1 </button>
-                        <label for="txt1"> First Statement  <input type="text" id="txt1" value="first statement" disabled></label>
+                        <label for="txt1"> <input class="text" type="text" id="txt1" value="first statement" disabled></label>
                     </div>
                 </div>
                 
@@ -38,13 +38,13 @@
                     <!--For the second lock and Second Phrase-->
                     <div class="second-statement">
                         <button class="lock2" onclick="toggleLock(2)"> lock 2 </button>
-                        <label for="txt2"> Second Statement <input type="text" id="txt2" value="second statement" disabled></label>    
+                        <label for="txt2"> <input class="text" type="text" id="txt2" value="second statement" disabled></label>    
                     </div>
                 </div>
                 
                 <!--For generating the idea-->
                 <div class="generator">
-                    <button class="lock2" onclick="generateIdeas()"> Generate Idea </button>
+                    <button class="idea-button" onclick="generateIdeas()"> Generate Idea </button>
                 </div>
 
             </section>
