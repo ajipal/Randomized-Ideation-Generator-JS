@@ -25,13 +25,19 @@
         </header>
         
         <main>
-            <section>
-
-                <!--For generating the idea-->
+            <section class="functions-section">
+                    <!--For generating the idea-->
                 <div class="generator">
                     <button class="idea-button" onclick="generateIdeas()"> Generate Idea </button>
                 </div>
-                
+                <!--Add Button-->
+                <div class="add">
+                    <button class="add-button" onclick="generateIdeas()"> Add </button>
+                </div>
+            </section>
+
+
+            <section class="prompt-section">
                 <!--For the first lock and First Phrase-->
                 <div class="first-container">
                     <div class="first-statement">
@@ -47,8 +53,6 @@
                         <label for="txt2"> <input class="text" type="text" id="txt2" value="second statement" disabled></label>    
                     </div>
                 </div>
-                
-
             </section>
         </main>
         
