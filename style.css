@@ -55,9 +55,11 @@ header {
 
 /*main */
 main {
+    margin-top: 0;
+    margin-left: 70px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     height: 100vh;
 }
 
@@ -72,14 +74,24 @@ section {
 .first-container,
 .second-container,
 .generator {
-    text-align: center;
+    text-align: left;
 }
 
 .text {
+    padding-left: 25px;
     font-size: 50px;
-    
+    background-color: white;
+    border: none;
 }
 
 .idea-button {
     font-size: 25px;
+}
+
+.first-statement,
+.second-statement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
